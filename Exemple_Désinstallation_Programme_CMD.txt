@@ -1,0 +1,3 @@
+wmic
+/node:"UC3822E2247AA6" product get name
+/node:"UC3822E2247AA6" product where name="HP Sure Sense Installer" call uninstall
